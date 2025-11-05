@@ -1,0 +1,15 @@
+body {
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.cuadrado{
+    width: 40vmin; 
+    height: 40vmin;
+    border-top: 0.5vmin solid green;
+    border-bottom: 0.5vmin dashed blue;
+    border-right: 0.5vmin solid yellow;
+    border-left: 0.8vmin solid red;
+    border-top-right-radius: 1vmin;
+}

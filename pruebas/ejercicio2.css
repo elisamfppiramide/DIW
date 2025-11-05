@@ -1,0 +1,16 @@
+body {
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.cuadrado{
+    width: 40vmin; 
+    height: 40vmin;
+    border-top: 0.8vmin solid blue;
+    border-bottom: 0.8vmin solid blue;
+    border-right: 0.8vmin solid blue;
+    border-left: 0.8vmin solid blue;
+    border-top-left-radius: 3vmin;
+    border-bottom-right-radius: 3vmin;
+}
