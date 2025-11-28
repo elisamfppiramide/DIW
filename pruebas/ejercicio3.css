@@ -1,8 +1,6 @@
 body {
-    height: 100vh; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
+  height: 100vh;
+  position: relative; 
 }
 
 .cuadrado {
@@ -10,9 +8,9 @@ body {
   height: 40vmin;
   background-color: red;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 50px;
 }
 
 .cuadrado2 {
@@ -20,13 +18,17 @@ body {
   height: 25vmin;
   background-color: green;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 19%;
+  left: 19%;
 }
 
 .cuadrado3 {
   width: 10vmin;
   height: 10vmin;
   background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
