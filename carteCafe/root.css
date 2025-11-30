@@ -1,0 +1,9 @@
+:root {
+    font-size: 10px;
+    --color-marron-claro: #E6DCD5;
+    --color-marron-medio: #A57D65;
+    --color-amarillo-pastel: #F4EAD3;
+    --color-marron-oscuro: #5C4A3E;
+    --font-titulo: 'Playfair Display', serif;
+    --font-cuerpo: 'Roboto', sans-serif;
+}
