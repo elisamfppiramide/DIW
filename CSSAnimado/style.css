@@ -1,0 +1,72 @@
+.contenedor{
+    display: flex;
+    animation:
+        izquierda 6s 0s,
+        abajo 6s 6s,
+        derecha 6s 12s,
+        arriba 6s 18s
+    ;
+}
+.circulo1{
+    border-radius: var(--circulo);
+    border: var(--grosor);
+    width: var(--width);
+    height: var(--height);
+    margin: var(--margin);
+    background-color: lightblue;
+}
+
+.circulo2{
+    border-radius: var(--circulo);
+    border: var(--grosor);
+    width: var(--width);
+    height: var(--height);
+    margin: var(--margin);
+    background-color: lightpink;
+
+
+}
+
+.circulo3{
+    border-radius: var(--circulo);
+    border: var(--grosor);
+    width: var(--width);
+    height: var(--height);
+    margin: var(--margin);
+    background-color: lightgoldenrodyellow;
+}
+
+@keyframes izquierda {
+    from { 
+        margin-left: 150vh; 
+    }to { 
+        margin-left: 0vh; 
+    }
+}
+@keyframes derecha {
+    from { 
+        margin-left: 0vh; 
+        margin-top:85vh;
+    }to { 
+        margin-left: 150vh; 
+        margin-top: 85vh;
+    }
+}
+@keyframes arriba {
+    from { 
+        margin-left: 150vh; 
+        margin-top: 85vh;
+    }to { 
+        margin-top: 0vh;
+        margin-left:150vh;
+    }
+}
+@keyframes abajo {
+    from { 
+        margin-top: 0vh; 
+        margin-left:0;
+    }to { 
+        margin-top: 85vh; 
+        margin-left: 0vh;
+    }
+}
