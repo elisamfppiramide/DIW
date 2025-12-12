@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0; 
+    height: 100vh;
+    background-color: lightslategray;
+}
+
+.loader {
+  display: block;  
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin:15px auto;
+  box-sizing: border-box;
+  animation: animloader 2s linear infinite;
+}
+
+@keyframes animloader {
+    0% {
+        box-shadow: 14px 0 0 -2px #ffd8b1, 38px 0 0 -2px #ffcaa3, -14px 0 0 -2px #ffd8b1, -38px 0 0 -2px #ffcaa3;
+    }
+    25% {
+        box-shadow: 14px 0 0 -2px #ffe0b8, 38px 0 0 -2px #ffd2aa, -14px 0 0 -2px #ffd8b1, -38px 0 0 2px #ffbfa0;
+    }
+    50% {
+        box-shadow: 14px 0 0 -2px #ffd8b1, 38px 0 0 -2px #ffd2aa, -14px 0 0 2px #ffe0b8, -38px 0 0 -2px #ffcaa3;
+    }
+    75% {
+        box-shadow: 14px 0 0 2px #ffbfa0, 38px 0 0 -2px #ffd8b1, -14px 0 0 -2px #ffd2aa, -38px 0 0 -2px #ffe0b8;
+    }
+    100% {
+        box-shadow: 14px 0 0 -2px #ffe0b8, 38px 0 0 2px #ffd8b1, -14px 0 0 -2px #ffcaa3, -38px 0 0 -2px #ffd2aa;
+    }
+}
